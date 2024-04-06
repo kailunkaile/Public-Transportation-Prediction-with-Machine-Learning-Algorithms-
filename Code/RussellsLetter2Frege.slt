@@ -1,0 +1,79 @@
+
+(:DESCRIPTIONS
+ ((:X
+   194
+   :Y
+   30
+   :ID
+   1
+   :NAME
+   "Frege's Axiom V'"
+   :FORMULA
+   "(exists x (forall y (iff (\\in y x) (not (\\in y y)))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   59
+   :Y
+   193
+   :ID
+   4
+   :NAME
+   ""
+   :FORMULA
+   "(iff (\\in a a) (not (\\in a a)))"
+   :JUSTIFICATION
+   LOGIC::FORALL-ELIM)
+  (:X
+   12
+   :Y
+   73
+   :ID
+   3
+   :NAME
+   ""
+   :FORMULA
+   "(forall y (iff (\\in y a) (not (\\in y y))))"
+   :JUSTIFICATION
+   LOGIC::ASSUME)
+  (:X
+   113
+   :Y
+   316
+   :ID
+   5
+   :NAME
+   ""
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::PC-PROVABILITY)
+  (:X
+   284
+   :Y
+   381
+   :ID
+   2
+   :NAME
+   "GOAL"
+   :FORMULA
+   "(and \\zeta (not \\zeta))"
+   :JUSTIFICATION
+   LOGIC::EXISTS-ELIM))
+ :STRUCTURES
+ ((:CONCLUSION 1 :PREMISES NIL)
+  (:CONCLUSION 4 :PREMISES (3))
+  (:CONCLUSION 3 :PREMISES NIL)
+  (:CONCLUSION 5 :PREMISES (4))
+  (:CONCLUSION 2 :PREMISES (1 5)))
+ :INTERFACE
+ (:X
+  2467
+  :Y
+  210
+  :WIDTH
+  680
+  :HEIGHT
+  480
+  :PROOF-SYSTEM
+  LOGIC::FIRST-ORDER-LOGIC))
