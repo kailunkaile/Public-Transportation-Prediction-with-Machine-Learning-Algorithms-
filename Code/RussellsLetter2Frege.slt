@@ -9,7 +9,7 @@
    :NAME
    "Frege's Axiom V'"
    :FORMULA
-   "(exists x (forall y (iff (\\in y x) (not (\\in y y)))))"
+   "(exists x (forall y (iff (\in y x) (not (\in y y)))))"
    :JUSTIFICATION
    LOGIC::ASSUME)
   (:X
@@ -21,7 +21,7 @@
    :NAME
    ""
    :FORMULA
-   "(iff (\\in a a) (not (\\in a a)))"
+   "(iff (\in a a) (not (\in a a)))"
    :JUSTIFICATION
    LOGIC::FORALL-ELIM)
   (:X
@@ -33,7 +33,7 @@
    :NAME
    ""
    :FORMULA
-   "(forall y (iff (\\in y a) (not (\\in y y))))"
+   "(forall y (iff (\in y a) (not (\in y y))))"
    :JUSTIFICATION
    LOGIC::ASSUME)
   (:X
@@ -45,7 +45,7 @@
    :NAME
    ""
    :FORMULA
-   "(and \\zeta (not \\zeta))"
+   "(and \zeta (not \zeta))"
    :JUSTIFICATION
    LOGIC::PC-PROVABILITY)
   (:X
@@ -57,7 +57,7 @@
    :NAME
    "GOAL"
    :FORMULA
-   "(and \\zeta (not \\zeta))"
+   "(and \zeta (not \zeta))"
    :JUSTIFICATION
    LOGIC::EXISTS-ELIM))
  :STRUCTURES
