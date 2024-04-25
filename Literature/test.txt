@@ -1,1 +1,24 @@
+Use of machine learning in understanding transport dynamics of land use and public  
+transportation in a developing city  
+https://www.sciencedirect.com/science/article/pii/S0264275123003992  
 
+Short-Term Prediction of City Traffic Flow via Convolutional Deep Learning  
+https://ieeexplore.ieee.org/document/9930774 
+
+Real-Time Public Transportation Prediction with Machine Learning Algorithms  
+https://ieeexplore.ieee.org/document/9043077 
+
+Artificial Intelligence in Railway Transport: Taxonomy, Regulations, and Applications 
+https://ieeexplore.ieee.org/document/9652066 
+
+Network-Wide Public Transport Occupancy Prediction Framework With Multiple 
+Line Interactions 
+https://ieeexplore.ieee.org/document/10314412 
+
+Novel Graph-Based Machine Learning Technique to Secure Smart Vehicles in 
+Intelligent Transportation Systems 
+https://ieeexplore.ieee.org/document/9784849 
+
+Automated Traffic Volume Counts 
+https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume
+Counts/7ym2-wayt/about_data
